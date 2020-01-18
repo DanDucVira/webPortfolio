@@ -1,1 +1,15 @@
+$header1: 4rem;
+$header2: 2.5rem;
+$text: 2rem;
+$gradient: linear-gradient(left, #38d39f, #38a4d3);
+$background-color: #153253;
+$gray-text: #2c2c2c;
+
+@mixin flex($justify, $align, $direction) {
+    display: flex;
+    justify-content: $justify;
+    align-items: $justify;
+    flex-direction: $direction;
+}
+
 @import "global";

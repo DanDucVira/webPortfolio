@@ -13,7 +13,7 @@ html {
 }
 
 h1 {
-    font-size: var(--header1);
+    font-size: $header1;
 
 
 }
@@ -23,21 +23,21 @@ button,
 label,
 input,
 p {
-    font-size: var(--text);
+    font-size: $text;
 }
 
 h2 {
-    font-size: var(--header2);
+    font-size: $header2;
 
 }
 
 h3 {
-    font-size: var(--header3);
+    font-size: $header3;
 }
 
 h4,
 h5 {
-    font-size: var(--header4);
+    font-size: $header4;
 }
 
 ul {
@@ -46,7 +46,7 @@ ul {
 
 a {
     text-decoration: none;
-    color: var(--gray-text);
-    font-size: 2.8rem;
+    color: $gray-text;
+    font-size: 2.2rem;
 
 }

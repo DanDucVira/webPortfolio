@@ -1,0 +1,18 @@
+footer {
+    background: #192965;
+    @include flex(flex-start, center, row);
+    color: white;
+    min-height: 10vh;
+    padding: 0% 5%;
+
+    ul {
+        flex: 1 1 40rem;
+        @include flex(space-around, center, row);
+        padding-top: 3rem;
+    }
+
+    h4 {
+        flex: 1 1 40rem;
+        padding-top: 3rem;
+    }
+}
